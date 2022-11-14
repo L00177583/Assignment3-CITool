@@ -4,7 +4,7 @@
 <suite name="Suite1" >
   <test thread-count="5" name="TestDevOps">
     <classes>
-      <class name= "DevOpsTest.UITest"/>
+      <class name= "ie.atu.mvn4CI.TestUI"/>
    </classes>
  </test> <!-- Test-->
-</suite> <!-- Suite-->
+</suite> <!-- Test suite-->
