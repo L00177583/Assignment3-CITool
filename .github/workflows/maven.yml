@@ -27,8 +27,10 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         cache: maven
+    - name: Navigate to POM file
+      run: cd mvn4CI
     - name: Build with Maven
-      run: mvn -B package --file mvn4CI/pom.xml
+      run: mvn -B package --file pom.xml
     - name: Perform Unit Test
       run: mvn clean test
 
