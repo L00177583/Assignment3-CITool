@@ -68,27 +68,10 @@
         
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
-<<<<<<< HEAD
-<<<<<<< HEAD
-          	<artifactId>maven-surefire-plugin</artifactId>
-          	<version>3.0.0-M7</version>  
-=======
           <artifactId>maven-surefire-plugin</artifactId>
           <version>3.0.0-M7</version>  
->>>>>>> branch 'main' of https://github.com/L00177583/Assignment3-CITool.git
-=======
-          <artifactId>maven-surefire-plugin</artifactId>
-          <version>3.0.0-M7</version>  
->>>>>>> branch 'main' of https://github.com/L00177583/Assignment3-CITool.git
         </plugin>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
->>>>>>> branch 'main' of https://github.com/L00177583/Assignment3-CITool.git
-=======
-
->>>>>>> branch 'main' of https://github.com/L00177583/Assignment3-CITool.git
         
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>
