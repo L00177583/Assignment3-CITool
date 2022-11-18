@@ -41,10 +41,19 @@
       <groupId>io.github.bonigarcia</groupId>
       <artifactId>webdrivermanager</artifactId>
       <version>4.3.1</version>
-    </dependency>
-    
-    
+    </dependency>  
   </dependencies>
+  
+<distributionManagement>
+    <repository>
+        <id>releases</id>
+        <url>https://github.com/L00177583/Assignment3-CITool</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <url>https://github.com/L00177583/Assignment3-CITool</url>
+    </snapshotRepository>
+</distributionManagement>
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
@@ -70,9 +79,7 @@
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-surefire-plugin</artifactId>
           <version>3.0.0-M7</version>  
-        </plugin>
-
-        
+        </plugin>   
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>
           <version>3.0.2</version>
