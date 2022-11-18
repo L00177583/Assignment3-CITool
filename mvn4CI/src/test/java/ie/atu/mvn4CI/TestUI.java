@@ -15,7 +15,6 @@ public class TestUI
 {
 	@Test
 	public void openBrowser()
-	
 	{
 		WebDriverManager.chromedriver().setup();
 //		WebDriver driver = new ChromeDriver();
@@ -28,6 +27,5 @@ public class TestUI
 //		driver.quit();
 		
 	}
-	
 
 }
