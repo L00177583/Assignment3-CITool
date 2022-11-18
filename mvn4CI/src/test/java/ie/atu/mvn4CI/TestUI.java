@@ -19,7 +19,7 @@ public class TestUI
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().fullscreen();
 		driver.get("https://www.atu.ie/");
-		System.out.println("Test done");
+		System.out.println("Test done123");
 		driver.quit();
 		
 	}
