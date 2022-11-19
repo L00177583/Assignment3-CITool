@@ -16,6 +16,6 @@ public class AppTest
     public void shouldAnswerWithTrue()
     {
         assertTrue( true );
-        System.out.println("This test is succesfully updated");
+        System.out.println("This test is succesfully updated123");
     }
 }
