@@ -9,6 +9,15 @@
 name: Java CI with Maven
 
 on:
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: 'enter your log details'
+        required: true
+        default: 'warning'
+      tags:
+        description: 'Test Tags'
+        
   push:
     branches: [ "main" ]
   pull_request:
