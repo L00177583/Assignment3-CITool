@@ -6,7 +6,6 @@ Status:
 
 Approved 
   
-  
 Context:
 
 It has been observed that the user load has been increased during non-business hours which seems automated brute force attack on some features where rate limit or Throttling is not possible. These EC2 instances are unnecessary and increase the overall infrastructure budget. Also, end users won't use our application outside of business hours. So limiting load is a legit option.
