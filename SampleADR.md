@@ -1,6 +1,6 @@
 Title: 
 
-Limit the EC2 instances spinups on Production when user load is more than 500 users Accessing website between 00:00Am to 08:00Am
+Limit the EC2 instances spinups on Production when more than 500 users accessing website between 00:00Am to 08:00Am
 
 Status:
 
